@@ -97,6 +97,24 @@ body {
   padding: 0.8em 2em;
 }
 
+.skills {
+  text-align: center;
+  border-bottom: 0.1em solid #000000;
+  max-width: 1100px;
+  margin: 1em auto;
+  padding-bottom: 2em;
+}
+.skills .skills-title {
+  color: #000000;
+  margin-bottom: 1em;
+}
+.skills .skills-icon {
+  max-width: 100%;
+  width: 200px;
+  display: block;
+  margin: 1em auto;
+}
+
 @media (min-width: 768px) {
   .about .cards {
     text-align: start;
@@ -113,5 +131,15 @@ body {
   .about .cards .card .card-title .card-greet {
     font-size: 3em;
     font-family: "Great Vibes", cursive;
+  }
+
+  .skills .skills-title {
+    font-size: 3em;
+  }
+  .skills .icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 }
