@@ -1,0 +1,23 @@
+/* Base Style */
+/* Colors */
+/* Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  background-color: #FFF6F9;
+}
