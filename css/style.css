@@ -24,7 +24,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
 }
 
 /* Navbar */
@@ -45,4 +45,28 @@ body {
   justify-items: center;
   align-content: space-evenly;
   height: 100vh;
+}
+
+/* About Me */
+.about {
+  border-bottom: 0.1em solid #000000;
+  border-top: 0.1em solid #000000;
+  margin: 0 auto;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.about .cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+.about .cards .card {
+  margin-top: 1em;
+  width: 100%;
+}
+.about .cards .card-image {
+  max-width: 20em;
+  width: 100%;
+  border-radius: 1.4em;
 }
