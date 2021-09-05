@@ -24,7 +24,8 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
+  max-width: 1100px;
 }
 
 /* Navbar */
@@ -51,22 +52,66 @@ body {
 .about {
   border-bottom: 0.1em solid #000000;
   border-top: 0.1em solid #000000;
-  margin: 0 auto;
-  margin-top: 4em;
-  margin-bottom: 4em;
+  max-width: 1100px;
+  margin: 4em auto;
 }
 .about .cards {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
+  margin: 1em 0 4em 0;
+  text-align: center;
 }
 .about .cards .card {
-  margin-top: 1em;
+  margin-top: 2em;
   width: 100%;
+}
+.about .cards .card .card-title {
+  margin-bottom: 0.3em;
+}
+.about .cards .card .card-title .card-greet {
+  font-size: 2em;
+  font-family: "Great Vibes", cursive;
 }
 .about .cards .card-image {
   max-width: 20em;
   width: 100%;
   border-radius: 1.4em;
+}
+.about .cards .card-btn {
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid #000000;
+  border-radius: 0.5em;
+  padding: 0.8em 2em;
+}
+.about .cards .card-btn:hover,
+.about .cards .card-btn:active {
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid #000000;
+  color: #FFF6F9;
+  background-color: #000000;
+  border-radius: 0;
+  transition: 300ms;
+  padding: 0.8em 2em;
+}
+
+@media (min-width: 768px) {
+  .about .cards {
+    text-align: start;
+    flex-direction: row;
+    height: 30em;
+  }
+  .about .cards .card {
+    margin: 0 1em;
+    margin-top: 0em;
+  }
+  .about .cards .card .card-title {
+    font-size: 1.5em;
+  }
+  .about .cards .card .card-title .card-greet {
+    font-size: 3em;
+    font-family: "Great Vibes", cursive;
+  }
 }
