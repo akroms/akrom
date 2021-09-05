@@ -24,12 +24,12 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
 }
 
 /* Navbar */
 
-.navbar {    
+.navbar {
     .toggle {
         position: absolute;
         top: 1em;
@@ -46,10 +46,32 @@ body {
         display: none; // none
         font-size: 2em;
         justify-items: center;
-        align-content:space-evenly;
+        align-content: space-evenly;
         height: 100vh;
     }
 }
 
+/* About Me */
 
-
+.about {
+    border-bottom: 0.1em solid $primary-color;
+    border-top: 0.1em solid $primary-color;
+    margin: 0 auto;
+    margin-top:4em;
+    margin-bottom: 4em;
+    .cards {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+        .card {
+            margin-top:1em;
+            width: 100%;
+        }
+        .card-image {
+            max-width: 20em;
+            width: 100%;
+            border-radius: 1.4em;
+        }
+    }
+}
