@@ -21,3 +21,28 @@ body {
   color: #000000;
   background-color: #FFF6F9;
 }
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Navbar */
+.navbar .toggle {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.navbar .toggle div {
+  width: 36px;
+  height: 5px;
+  margin: 6px;
+  background-color: #000000;
+}
+.navbar .nav-list {
+  display: none;
+  font-size: 2em;
+  justify-items: center;
+  align-content: space-evenly;
+  height: 100vh;
+}
